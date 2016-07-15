@@ -1,0 +1,34 @@
+{
+  "name": "angular-app-starter",
+  "description": "An opinionated AngularJS application starter depending on John Papa's style guide and other best practices that apply for JavaScript in general and AngularJS in specific.",
+  "main": "index.js",
+  "authors": [
+    "Anas Shekhamis"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "angular1.x",
+    "application",
+    "app",
+    "starter",
+    "style",
+    "guide"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.7",
+    "angular-ui-router": "^0.3.1"
+  }
+}

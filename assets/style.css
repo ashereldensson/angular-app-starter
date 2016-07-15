@@ -1,0 +1,35 @@
+html, body, div.main-wrapper {
+	height: 100%;
+}
+
+.page-wrapper {
+	min-height: 100%;
+	margin-bottom: -60px;
+}
+
+.page-wrapper:after {
+	content: "";
+	display: block;
+}
+
+.footer, .page-wrapper:after {
+	height: 60px;
+}
+
+.footer {
+	background-color: #f5f5f5;
+}
+
+.text-muted {
+	margin: 20px 0;
+}
+
+.navbar a {
+	cursor: pointer;
+}
+
+.table-align td, th
+{
+	text-align:center;
+	vertical-align:middle;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "angular-app-starter",
+  "version": "1.0.0",
+  "description": "An opinionated AngularJS application starter depending on John Papa's style guide and other best practices that apply for JavaScript in general and AngularJS in specific.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "angular1.x",
+    "application",
+    "app",
+    "starter",
+    "style",
+    "guide"
+  ],
+  "author": "Anas Shekhamis",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-serve": "^1.4.0"
+  }
+}

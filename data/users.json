@@ -1,0 +1,92 @@
+[
+	{
+		"gender": "male",
+		"name": {
+			"title": "mr",
+			"first": "daniel",
+			"last": "cooper"
+		},
+		"location": {
+			"street": "7892 southampton street",
+			"city": "hamilton",
+			"state": "southland",
+			"postcode": 36895
+		},
+		"email": "daniel.cooper@example.com",
+		"dob": 992725890,
+		"phone": "(651)-223-5898",
+		"cell": "(449)-712-5391"
+	},
+	{
+		"gender": "female",
+		"name": {
+			"title": "miss",
+			"first": "melike",
+			"last": "samancı"
+		},
+		"location": {
+			"street": "8266 fatih sultan mehmet cd",
+			"city": "rize",
+			"state": "çorum",
+			"postcode": 23212
+		},
+		"email": "melike.samancı@example.com",
+		"dob": 1429256626,
+		"phone": "(636)-366-7581",
+		"cell": "(705)-688-9419"
+	},
+	{
+		"gender": "female",
+		"name": {
+			"title": "mrs",
+			"first": "ella",
+			"last": "bowman"
+		},
+		"location": {
+			"street": "8146 mill road",
+			"city": "mullingar",
+			"state": "galway city",
+			"postcode": 91788
+		},
+		"email": "ella.bowman@example.com",
+		"dob": 1174682957,
+		"phone": "021-006-1514",
+		"cell": "081-696-5819"
+	},
+	{
+		"gender": "female",
+		"name": {
+			"title": "ms",
+			"first": "olivia",
+			"last": "andersen"
+		},
+		"location": {
+			"street": "3045 vardevej",
+			"city": "rødvig stevns",
+			"state": "danmark",
+			"postcode": 60537
+		},
+		"email": "olivia.andersen@example.com",
+		"dob": 593067079,
+		"phone": "76265125",
+		"cell": "36291801"
+	},
+	{
+		"gender": "male",
+		"name": {
+			"title": "mr",
+			"first": "angus",
+			"last": "turner"
+		},
+		"location": {
+			"street": "1757 alexandra street",
+			"city": "nelson",
+			"state": "waikato",
+			"postcode": 84227
+		},
+		"email": "angus.turner@example.com",
+		"dob": 693401534,
+		"phone": "(161)-195-9308",
+		"cell": "(932)-330-7069"	
+	}
+]

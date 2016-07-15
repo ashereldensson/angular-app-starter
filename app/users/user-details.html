@@ -1,0 +1,59 @@
+<div class="page-header">
+	<h1 class="text-primary">
+		User Details
+		<small>
+			{{::vm.userDetails.name.title | uppercase}}.
+			{{::vm.userDetails.name.first | uppercase}}
+			{{::vm.userDetails.name.last | uppercase}}
+		</small>
+	</h1>
+</div>
+
+<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h4>{{::vm.userDetails.name.title | uppercase}}. {{::vm.userDetails.name.last | uppercase}}'s Details</h4>
+			</div>
+			<div class="panel-body">
+				{{::vm.userDetails.description}}
+			</div>
+			<div class="list-group">
+				<a class="list-group-item">
+					<h4 class="list-group-item-heading">Gender</h4>
+					<p class="list-group-item-text">{{::vm.userDetails.gender}}</p>
+				</a>
+				<a class="list-group-item">
+					<h4 class="list-group-item-heading">Email</h4>
+					<p class="list-group-item-text">{{::vm.userDetails.email}}</p>
+				</a>
+				<a class="list-group-item">
+					<h4 class="list-group-item-heading">Date of Birth</h4>
+					<p class="list-group-item-text">{{::vm.userDetails.dob * 1000 | date}}</p>
+				</a>
+				<a class="list-group-item">
+					<h4 class="list-group-item-heading">Phone</h4>
+					<p class="list-group-item-text">{{::vm.userDetails.phone}}</p>
+				</a>
+				<a class="list-group-item">
+					<h4 class="list-group-item-heading">Cell Phone</h4>
+					<p class="list-group-item-text">{{::vm.userDetails.cell}}</p>
+				</a>
+				<a class="list-group-item">
+					<h4 class="list-group-item-heading">Address</h4>
+					<p class="list-group-item-text">
+						{{::vm.userDetails.location.street}} <br>
+						{{::vm.userDetails.location.city}} - {{::vm.userDetails.location.state}}
+					</p>
+				</a>
+				<a class="list-group-item">
+					<h4 class="list-group-item-heading">Postal Code</h4>
+					<p class="list-group-item-text">{{::vm.userDetails.location.postcode}}</p>
+				</a>
+			</div>
+		</div>
+		<a ui-sref="users" class="btn btn-default">
+			<span class="glyphicon glyphicon-arrow-left"></span>Back to Users' List
+		</a>
+	</div>
+</div>

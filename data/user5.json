@@ -1,0 +1,19 @@
+{
+	"gender": "male",
+	"name": {
+		"title": "mr",
+		"first": "angus",
+		"last": "turner"
+	},
+	"location": {
+		"street": "1757 alexandra street",
+		"city": "nelson",
+		"state": "waikato",
+		"postcode": 84227
+	},
+	"email": "angus.turner@example.com",
+	"dob": 693401534,
+	"phone": "(161)-195-9308",
+	"cell": "(932)-330-7069",
+	"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."	
+}
