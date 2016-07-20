@@ -56,7 +56,7 @@ $ gulp serve
 ### AngularJS Application
 The application (as mentioned before) lives in the `app` directory, and it's taking the modular approach to build components. For example, a "products" is a module that contains functionalities apply on products, like listing all products, displaying details about a product, creating a new product, deleting a product, and so on. That will make it easier for you and your team to navigate easily through out your application, and same goes for debugging and detecting problems. For more details please refer to [the style guide].
 
-### Environmen00t Configuration
+### Environment Configuration
 You can place your environment variables in the `core.config.js`, but that's not a good practice. Instead, you place them in another file (`ENV.js`) that you can "require" and use. Why should you do that? For the following reasons:
 
   - **Scalability** - coupling the configuration with the application logic will make it painful to deploy your application specially if you are using deployment tools.
