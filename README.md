@@ -54,17 +54,19 @@ $ gulp serve
   - `node_modules`: `npm` dependencies.
 
 ### AngularJS Application
-The application (as mentioned before) lives in the `app` directory, and it's taking the modular approach to build components. For example, a "products" is a module that contains functionalities apply on products, like listing all products, displaying details about a product, creating a new product, deleting a product, and so on. That will make it easier for you and your team to navigate easily through out your application, and same goes for debugging and detecting problems. For more details please reffer to [the style guide].
+The application (as mentioned before) lives in the `app` directory, and it's taking the modular approach to build components. For example, a "products" is a module that contains functionalities apply on products, like listing all products, displaying details about a product, creating a new product, deleting a product, and so on. That will make it easier for you and your team to navigate easily through out your application, and same goes for debugging and detecting problems. For more details please refer to [the style guide].
 
-### Environmnet Configuration
+### Environmen00t Configuration
 You can place your environment variables in the `core.config.js`, but that's not a good practice. Instead, you place them in another file (`ENV.js`) that you can "require" and use. Why should you do that? For the following reasons:
 
-  - **Scalabbility** - coupling the configuration with the application logic will make it painful to deploy your application specially if you are using deployment tools.
+  - **Scalability** - coupling the configuration with the application logic will make it painful to deploy your application specially if you are using deployment tools.
   - **Security** - while you're placing your configurations within the application, others will be able to see them when you, for example, push the application to your repository. This can be a security issue.
   - **Different builds** - simply when there's two different APIs, one for development and one for production. If your development configurations are coupled with your code, you have to create another built for your production.
 
-Now by placing your application's configurations you can deploy your application to development or production without exposing your any private details and without modifing your AngularJS code. 
+Now by placing your application's configurations you can deploy your application to development or production without exposing your any private details and without modifying your AngularJS code.
 
+### License
+**MIT**
 
 [John Papa's style guide]: <https://github.com/johnpapa/angular-styleguide/tree/master/a1>
 [the style guide]:<https://github.com/johnpapa/angular-styleguide/tree/master/a1#modularity>
