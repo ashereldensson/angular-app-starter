@@ -9,7 +9,7 @@ It's always preferable that your machine are running the latest version of each:
   - npm
   - Bower
 
-### Instllation
+### Installation
   Clone this repository:
   ```sh
   $ git clone https://github.com/anasshekhamis/angular-app-starter.git
@@ -28,8 +28,8 @@ It's always preferable that your machine are running the latest version of each:
   $ bower install
   ```
 
-### Running the aplication
-You can run the application locally on a server of choice (Apache, Nginx...etc). However, **AngularJS Application Starter** comes with a simple `gulp` server which is suitable for development purposes. To run the application on `gulp` server, from within the application directory, simply type in your shell:
+### Running the application
+You can run the application locally on a server of choice (Apache, Nginx...etc.) However, **AngularJS Application Starter** comes with a simple `gulp` server which is suitable for development purposes. To run the application on `gulp` server, from within the application directory, simply type in your shell:
 ```sh
 $ gulp serve
 ```
@@ -47,7 +47,7 @@ $ gulp serve
 
 ### Application Directory Structure
   - `app`: the AngularJS application lives in this directory.
-  - `assets`: contains the assets of the application (css, fonts, images...etc).
+  - `assets`: contains the assets of the application (CSS, fonts, images...etc.)
   - `config`: contains the environment configuration of the application.
   - `data`: mimicking the data API for demonstration purposes (should be removed when you start development).
   - `vendor`: all the bower dependencies can be found in the `vendor` directory, and you can install other dependencies depending on your needs.
