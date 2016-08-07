@@ -33,7 +33,7 @@ You can run the application locally on a server of choice (Apache, Nginx...etc.)
 ```sh
 $ gulp serve
 ```
-> Note: make sure you that `gulp-cli` is installed globally on your machine.
+> Note: make sure that `gulp-cli` is installed globally on your machine.
 
 > PS: don't use `gulp` server for production.
 
