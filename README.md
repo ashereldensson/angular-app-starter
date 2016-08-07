@@ -63,7 +63,7 @@ You can place your environment variables in the `core.config.js`, but that's not
   - **Security** - while you're placing your configurations within the application, others will be able to see them when you, for example, push the application to your repository. This can be a security issue.
   - **Different builds** - simply when there's two different APIs, one for development and one for production. If your development configurations are coupled with your code, you have to create another built for your production.
 
-Now by placing your application's configurations you can deploy your application to development or production without exposing your any private details and without modifying your AngularJS code.
+Now by placing your application's configurations you can deploy your application to development or production without exposing any private details and without modifying your AngularJS code.
 
 ### License
 **MIT**
