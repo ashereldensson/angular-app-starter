@@ -1,3 +1,4 @@
+# ARCHIVED
 # AngularJS Application Starter for Teams
 
 An **opinionated** AngularJS application starter for teams depending on [John Papa's style guide] and other best practices that apply for JavaScript in general and AngularJS in specific.
